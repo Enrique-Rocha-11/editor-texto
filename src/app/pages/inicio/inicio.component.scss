@@ -1,0 +1,22 @@
+.formulario {
+    width: 100%;
+    min-height: 700px;
+    display: grid;
+    place-items: center;
+}
+
+.NgxEditor__Wrapper {
+    width: 90%;
+    min-height: 700px;
+    height: auto;
+    max-width: 1200px;
+}
+
+.boton {
+    width: 100px;
+    padding: 12px 20px;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+}

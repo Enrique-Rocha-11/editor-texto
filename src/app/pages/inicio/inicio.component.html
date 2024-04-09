@@ -1,0 +1,17 @@
+<form [formGroup]="formEditor" class="formulario" autocomplete="off">
+
+
+
+    <div class="NgxEditor__Wrapper">
+        <ngx-editor-menu class="NgxEditor__MenuBar" [editor]="editorDesc" [toolbar]="toolbar">
+        </ngx-editor-menu>
+        <ngx-editor maxlength="10" class="NgxEditor" formControlName="description" [editor]="editorDesc" [placeholder]="'Escribe aqui......'"> </ngx-editor>
+    </div>
+
+    <div class="boton" id="boton" (click)="copiarHtml()">HTML</div>
+    <div class="boton" id="boton" (click)="demoHtml()">Demo</div>
+
+    <div class="NgxEditor__Wrapper" id="demo">
+
+    </div>
+</form>
